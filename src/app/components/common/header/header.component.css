@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 15px 10px;
+    height: 87px;
+}
+.header .title {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+.header .exchange {
+    align-items: center;
+    margin: 0 5px 0 0
+}
+.path {
+    margin-bottom: 15px;
+}
+.path mat-nav-list.list-horizontal {
+    padding: 0;
+}
+.path mat-nav-list.list-horizontal .mat-list-item {
+    display: inline-block;
+    height: auto;
+    width: auto;
+}

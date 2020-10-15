@@ -1,0 +1,9 @@
+<div class="header">
+    <div class="title">{{title}}</div>
+    <div class="exchange">Exchange: $ {{exchangeRate}}</div>
+</div>
+<div class="path">
+    <mat-nav-list class="list-horizontal">
+        <a *ngFor="let item of path" mat-list-item (click)="goTo(item['route'])">{{ item["name"] }}</a>
+    </mat-nav-list>
+</div>

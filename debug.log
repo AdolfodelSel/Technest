@@ -1,0 +1,9 @@
+[1014/162034.901:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1014/163619.999:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1014/174557.485:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1014/185134.516:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/092108.502:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/100453.577:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/101351.960:ERROR:file_io_win.cc(162)] CreateFile C:\Users\adolf\AppData\Local\Temp\karma-84225038\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1015/101351.962:ERROR:file_io_win.cc(171)] CreateFile C:\Users\adolf\AppData\Local\Temp\karma-84225038\Crashpad\reports\194d0462-64f1-4843-9a62-a2d4f5d0ae2a.dmp: The system cannot find the path specified. (0x3)
+[1015/101351.962:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed

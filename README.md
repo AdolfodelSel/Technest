@@ -1,27 +1,65 @@
-# NestTechnest
+# Technest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+Angular-Nest application that displays a list of accounts.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine.
 
-## Code scaffolding
+* [GiHub](https://github.com/AdolfodelSel/Technest) - Proyect code
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Running
 
-## Build
+A step by step series of examples that tell you how to get a development env running
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Download the code
+
+```
+git clone https://github.com/AdolfodelSel/Technest.git
+```
+
+Go to Technest folder
+
+```
+cd Technest
+```
+
+Install dependencies
+
+```
+npm i
+```
+
+Run a dev server (It will take some time so better go for a coffee)
+
+```
+npm run dev:ssr
+```
+
+Navigate to `http://localhost:4200/`.
+The app will automatically reload if you change any of the source files.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests.
 
-## Running end-to-end tests
+## Built With
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* [Angular](https://angular.io/) - The frontend framework used
+* [NestJS](https://nestjs.com/) - The backend framework used
 
-## Further help
+## Notes
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+I have used a Nest angular module for for a faster implementation.
+This implied some problems in the creation of the websockets with the socket-io library, now solved.
+It should be built in the traditional way for a better experience in production environments.
+
+* [Module](https://www.npmjs.com/package/@nestjs/ng-universal) - Angular Universal module for Nest.
+
+## Author
+
+* **Adolfo del Sel Llano**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

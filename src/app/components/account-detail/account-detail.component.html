@@ -1,0 +1,12 @@
+<div class="account">
+    <common-header [title]="title" [path]="path" [exchangeRate]="exchangeRate"></common-header>
+    <div class="detailContainer">
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>{{account.account_name}}</mat-card-title>
+                <mat-card-subtitle>Available Balance: BTC {{account.available_balance}} ($ {{account.available_balance | priceCalculator:exchangeRate}})</mat-card-subtitle>
+            </mat-card-header>
+        </mat-card>
+    </div>
+    <common-table [data]="dataSource" [exchangeRate]="exchangeRate" [displayedColumns]="displayedColumns" [columns]="columns"></common-table>
+</div>
